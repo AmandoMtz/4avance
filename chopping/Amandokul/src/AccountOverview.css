@@ -1,0 +1,77 @@
+.account-nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+  margin: 0 15px;
+}
+
+
+.account-content {
+  text-align: center;
+  margin-top: 30px; /* Aumenta el margen superior */
+}
+
+.membership-details {
+  border: 1px solid #ccc;
+  padding: 30px;
+  background-color: #fff;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.membership-title {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.renew-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.renew-button:hover {
+  background-color: #0056b3;
+}
+
+.user-info {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.renewal-info {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.no-membership-info {
+  background-color: #f0f8ff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: #dc3545;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.account-info {
+  background-color: #f0f8ff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.help-info {
+  background-color: #f0f8ff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+}

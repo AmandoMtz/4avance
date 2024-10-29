@@ -1,0 +1,78 @@
+/* PaymentMethod.css */
+
+.payment-container {
+    background-color: #fcf2d5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .payment-header h1 {
+    font-size: 24px;
+    color: #000;
+  }
+  
+  .payment-content h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #000;
+  }
+  
+  .payment-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .payment-option {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .payment-form label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .payment-form input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .payment-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .payment-column {
+    width: 48%;
+  }
+  
+  .payment-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .payment-buttons button {
+    width: 48%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #fcf2d5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

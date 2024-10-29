@@ -1,0 +1,114 @@
+.promotions-container {
+    padding: 40px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    padding: 20px;
+}
+
+.search-container {
+    margin-left: auto;
+}
+
+.promotions-nav a {
+    margin: 0 20px;
+    font-size: 1.3em;
+}
+
+.promotions-section,
+.featured-stores {
+    margin-top: 30px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.promotions-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.image-container {
+    background-color: #e0b0ff;
+    border-radius: 15px;
+    padding: 15px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.featured-stores-title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 30px;
+}
+
+.store-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.store-card {
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 25px;
+    width: 350px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.store-card:nth-child(1) {
+    background-color: #d0e8ff; /* Azul claro para tienda1 */
+    color: #333;
+}
+
+.store-card:nth-child(2) {
+    background-color: #d9f2e6; /* Verde claro para tienda2 */
+    color: #333;
+}
+
+.store-card:nth-child(3) {
+    background-color: #ffebc1; /* Naranja claro para tienda3 */
+    color: #333;
+}
+
+
+.store-image {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.half-size {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.promotions-footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1em;
+    color: #666;
+}

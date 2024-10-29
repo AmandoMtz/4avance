@@ -1,0 +1,125 @@
+/* Ampliar todo el contenido */
+.categories-container {
+  font-size: 1.2em; /* Disminuye el tamaño de la fuente en general */
+  width: 100%; /* Abarca todo el ancho */
+  margin: 0 auto;
+}
+
+/* Contenedor amarillo solo para el título superior */
+.header-top {
+  background-color: #ffea00;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px; /* Reduce el padding */
+  font-size: 1.2em; /* Disminuye el tamaño de la fuente */
+}
+
+/* Estilos para la barra de navegación */
+.categories-nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Disminuye el espacio entre enlaces */
+  padding: 10px 0; /* Reduce el padding */
+  font-size: 1em; /* Disminuye el tamaño de la fuente */
+}
+/* Cambiar el color de los enlaces a azul fuerte */
+.categories-nav a {
+  color: #007bff; /* Color azul fuerte */
+  text-decoration: none; /* Quitar subrayado */
+}
+
+.categories-nav a:hover {
+  text-decoration: underline; /* Subrayar en hover */
+}
+
+/* Sección Computación */
+.computacion-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0; /* Reduce el margen */
+}
+
+.computacion-main-title {
+  font-size: 2.5em; /* Reduce el tamaño del título */
+  font-weight: bold;
+  margin: 0;
+  color: #000;
+}
+
+.computacion-discounts {
+  display: flex;
+  gap: 10px; /* Reduce el espacio entre descuentos */
+  margin-top: 5px; /* Reduce el margen superior */
+}
+
+.discount-box {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 15px; /* Reduce el padding */
+  font-size: 1.2em; /* Reduce el tamaño de la fuente */
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.warranty-box {
+  background-color: #4bb5ff;
+  color: #000;
+  padding: 10px 15px; /* Reduce el padding */
+  font-size: 1.2em; /* Reduce el tamaño de la fuente */
+  font-weight: bold;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+
+/* Sección de Categorías */
+.categories-section {
+  margin-top: 50px; /* Reduce el margen superior */
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2em; /* Reduce el tamaño del título de sección */
+  margin-bottom: 15px; /* Reduce el margen inferior */
+}
+
+.categories-list {
+  display: flex;
+  justify-content: center; /* Centra todos los contenedores de categoría */
+  gap: 15px; /* Disminuye el espacio entre cada categoría */
+}
+
+/* Contenedor blanco para las categorías */
+.category-container {
+  background-color: white; /* Color del contenedor blanco */
+  padding: 10px; /* Reduce el espaciado interno */
+  border: 1px solid #ccc; /* Borde sutil */
+  display: flex; /* Usar flex para alinear imagen y texto */
+  flex-direction: column; /* Coloca imagen y texto en columna */
+  align-items: center; /* Centra verticalmente el contenido */
+  height: 180px; /* Establece una altura fija para todos los contenedores */
+  width: 180px; /* Ancho del contenedor */
+  justify-content: center; /* Centra el contenido verticalmente */
+}
+
+/* Ajustes a los elementos de las categorías */
+.category-item {
+  text-align: center; /* Centra el texto */
+}
+
+.category-item img {
+  width: 140px; /* Reduce el tamaño de las imágenes */
+  height: auto; /* Mantiene la proporción de la imagen */
+  margin-bottom: 5px; /* Reduce el espacio entre imagen y texto */
+}
+
+.category-text {
+  color: #000; /* Color de texto para las categorías */
+  font-size: 0.7em; /* Reduce el tamaño de texto */
+  font-weight: bold; /* Estilo en negrita */
+  text-align: center; /* Asegúrate de que el texto esté centrado */
+  width: 100%; /* Asegura que el texto ocupe todo el ancho del contenedor */
+  word-wrap: break-word; /* Permite que la palabra se divida en la siguiente línea */
+  overflow-wrap: break-word; /* Proporciona soporte adicional para el ajuste de palabras */
+}
